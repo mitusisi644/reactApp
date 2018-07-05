@@ -1,0 +1,10 @@
+body .lss-paper { 
+	margin:0 auto;
+	width: 98%;
+	box-shadow: none;
+ }
+.lss-table-head{ 
+	font-weight:bold;
+	background: #fafafa;
+}
+ 
