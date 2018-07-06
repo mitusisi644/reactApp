@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Route} from 'react-router-dom';
+import {Route,Router,Redirect} from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
@@ -36,8 +36,8 @@ function CenteredGrid(props) {
 					<Nav />
 				</Grid>
 				<Grid item xs={10} className={classes.paper}>
-					<Route path='/home' component={Home} />
-					<Route path='/zeus' component={Zeus}/>
+					<Redirect path="/" to={{pathname: '/home'}} />
+					<Route exact path='/zeus' component={Zeus}/>
 					<Route path='/ablum' component={Ablum}/>
 				</Grid>
 			</Grid>

@@ -16,6 +16,6 @@ class tranCard extends Component {
 }
 */
 const Home = props => (
-	<h1>11Welcome!</h1>
+	<h1>indes!</h1>
 );
 export default Home;
