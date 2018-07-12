@@ -24,7 +24,9 @@ function ListDividers(props) {
 
 		<div className={classes.root}>
 			<List component="nav" className={classes.navs}>
-				
+				<ListItem className={navStyles['lss-nav']} button>
+					<NavLink to={'/'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="甲"  /></NavLink>
+				</ListItem>				
 				<Divider />
 				<ListItem className={navStyles['lss-nav']} button divider>
 					<NavLink to={'/zeus'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="￥机构$"  /></NavLink>
@@ -33,9 +35,6 @@ function ListDividers(props) {
 					<NavLink to={'/ablum'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="参与乙" /></NavLink>
 				</ListItem>
 				<Divider light />
-				<ListItem className={navStyles['lss-nav']} button>
-					<NavLink to={'/home'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="甲"  /></NavLink>
-				</ListItem>
 			</List>
 		</div>
 	);
