@@ -24,15 +24,29 @@ function ListDividers(props) {
 
 		<div className={classes.root}>
 			<List component="nav" className={classes.navs}>
-				<ListItem className={navStyles['lss-nav']} button>
-					<NavLink to={'/'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="甲"  /></NavLink>
-				</ListItem>				
-				<Divider />
 				<ListItem className={navStyles['lss-nav']} button divider>
-					<NavLink to={'/zeus'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="￥机构$"  /></NavLink>
+					<NavLink to={'/bank'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="银行机构"  /></NavLink>
+				</ListItem>
+				<ListItem className={navStyles['lss-nav']} button divider>
+					<NavLink to={'/bankEmployee'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="银行柜员"  /></NavLink>
+				</ListItem>
+				<ListItem className={navStyles['lss-nav']} button divider>
+					<NavLink to={'/customer'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="客户"  /></NavLink>
+				</ListItem>
+				<ListItem className={navStyles['lss-nav']} button divider>
+					<NavLink to={'/letterCredit'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="信用证"  /></NavLink>
+				</ListItem>
+				<ListItem className={navStyles['lss-nav']} button divider>
+					<NavLink to={'/allTransactions'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="所有交易 "  /></NavLink>
+				</ListItem>
+				<ListItem className={navStyles['lss-nav']} button divider>
+					<NavLink to={'/zeus'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="demo1"  /></NavLink>
+				</ListItem>
+				<ListItem className={navStyles['lss-nav']} button divider>
+					<NavLink to={'/'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="demp2"  /></NavLink>
 				</ListItem>
 				<ListItem className={navStyles['lss-nav']} button>
-					<NavLink to={'/ablum'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="参与乙" /></NavLink>
+					<NavLink to={'/ablum'} exact activeClassName={navStyles['lss-nav-selected']}><ListItemText primary="demo3" /></NavLink>
 				</ListItem>
 				<Divider light />
 			</List>

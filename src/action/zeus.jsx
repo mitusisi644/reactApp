@@ -2,7 +2,6 @@ import {createAction} from 'redux-actions';
 const requestZeus = createAction('REQUEST_ZEUS');
 const receiveZeus = createAction('RECEIVE_ZEUS');
 
-
 const fetchData = () => {
 	return new Promise((resolve, reject) => {
 		fetch('http://192.144.145.215:3000/api/Agency')

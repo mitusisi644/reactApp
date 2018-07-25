@@ -1,0 +1,84 @@
+body .lss-paper { 
+	margin:0 auto;
+	width: 98.2%;
+	box-shadow: none; 
+	border-top:1px solid #ccc;
+ }
+ ul,li { list-style: none; }
+ button:focus{outline:0;} 
+.lss-table-head{ 
+	font-weight:bold;
+	background: #fafafa;
+}
+.bfb-pager { width:100%; position: relative; }
+ 
+.mianbaoxie { width: 100%; height:50px; line-height: 50px; background: #fff; border-bottom:1px solid #ccc;  text-align: left; padding:0px 10px;}
+.mianbaoxie a { color:#6e6e6e; padding-right:5px; padding-left:5px; text-decoration: none;}
+body a.on-active { color:#3f51b5; }
+body .lss-grid {
+	margin:0px 1.2%; text-align: left; position: relative;
+}
+.step-list {
+  width:100%; height: auto; overflow: hidden; padding:20px 0px;
+}
+.step-list div { background: none;}
+
+.lss-border-grid {border:1px solid #ccc; border-radius:5px; padding:10px;}
+.glss-warp { margin:0 auto; width:74%; margin-top:20px;display: flex;  text-align: center;}
+.glss-warp h2 { font-size:16px; text-align: left;  border-bottom:1px solid #ccc; padding:8px 0px;}
+.glss-left {display:inline-block; width:79%; text-align:left; min-height:500px;}
+.glss-right { display: inline-block; margin-left:2%; width: 18%; text-align:left; }
+.glss-l-left { float:left; width:60%; margin-bottom:20px;}
+.glss-l-right { float:right; width:38%; position: relative; margin-bottom:20px;min-height:510px;}
+.rule-grid { clear:both; width:100%; height:auto; overflow: hidden; margin-top:20px; padding-bottom:20px; position: relative;}
+.rule-cons { width:100%;background:#fff;}
+.rule-cons ul {padding:10px 0px 30px;}
+.rule-cons li { margin-top:10px; height:auto; line-height: 32px;}
+.rule-cons input { width: 90%; height:22px; line-height: 22px;}
+
+.item-nv { width:100%; text-align: left; padding-top:10px;}
+.item-nv p { height: auto; line-height: 30px; font-size:14px; margin-top:10px;}
+
+ .product-grid {  height:490px; background:#fff;}
+ .product-grid label {
+  display: block; width:100%; height:auto; overflow: hidden; margin-top:15px;
+  color:#333; font-size:16px; text-align: left;
+ }
+ .product-grid .grid-ls-label { color:#999; font-size:14px; line-height:24px;}
+ .product-grid .grid-ls-con { height:30px; line-height:30px; }
+ .product-grid p span,
+ .product-grid p input {
+  display: block; width:90%; height:auto; overflow: hidden;line-height: 26px;
+  padding:0px 2px; float:left;
+ }
+ .subBtn {width: 100%; height: auto; padding:20px 13% 50px; text-align: right; position: relative;}
+ .subBtn button {
+    width:auto; height:40px; line-height: 40px;
+    padding:0px 30px;
+    border-radius: 30px;
+    background-color: #4880ff;
+    border: none;
+    color: white;
+ }
+ .editButton {
+  width: 130px;
+  height: 34px;
+  position: absolute;
+  bottom: 0px;
+  right:30px;
+  border-radius: 30px;
+  background-color: #4880ff;
+  border: none;
+  color: white;
+  font-size: 10pt; }
+  .editButton > span {
+    background-color: #416dd1;
+    border-radius: 30px;
+    width: 50px;
+    float:left;
+    padding: 3px; 
+    margin-left:6px; margin-right:6px;
+  }
+  .editButton > span.r {
+    float:right;
+  }

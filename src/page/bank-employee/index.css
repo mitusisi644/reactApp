@@ -1,0 +1,12 @@
+body .lss-paper { 
+	margin:0 auto;
+	width: 98.2%;
+	box-shadow: none; 
+	border-top:1px solid #ccc;
+ }
+.lss-table-head{ 
+	font-weight:bold;
+	background: #fafafa;
+}
+ 
+ 

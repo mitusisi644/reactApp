@@ -1,16 +1,21 @@
 body .lss-nav {
 	padding:0px;
 }
-body .lss-nav a {
+.lss-nav a {
 	display: block;
 	width: 100%; height:auto; overflow: hidden;
 	padding:10px 20px;
 	text-decoration: none;
 	color:#3f51b5;
 }
-.lss-nav .lss-nav-selected {
-	background:#3f51b5;
+body .lss-nav-toolbar {
+	width:100%;
+	text-align: right;
 }
-.lss-nav .lss-nav-selected span {
+body .lss-nav-toolbar a {
+	color:#8794dd;
+	text-decoration: none;
+}body .lss-nav-toolbar .lss-nav-selected {
+	background:#3f51b5;
 	color:#fff;
 }
